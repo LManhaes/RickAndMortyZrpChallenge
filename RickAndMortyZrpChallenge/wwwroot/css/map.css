@@ -1,0 +1,137 @@
+﻿/* ===== Mapa de localizações do episódio (linha com pontos) ===== */
+
+.rm-location-map {
+    margin-top: 1.2rem;
+    padding: 1.4rem 0.9rem 1.4rem;
+    position: relative;
+    border-radius: 14px;
+    border: 1px dashed rgba(148, 163, 184, 0.4);
+    background: radial-gradient(circle at top, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.3));
+}
+
+.rm-location-title {
+    margin: 0 0 0.6rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #a5f3fc;
+}
+
+/* faixa que contém as colunas */
+.rm-location-columns {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.4rem;
+    justify-content: center;
+    align-items: stretch;
+    overflow-x: auto;
+    padding: 0.4rem 0.25rem 0.2rem;
+}
+
+    /* linha central (eixo) */
+    .rm-location-columns::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 2px;
+        background: linear-gradient(to right, #2de2e6, #39ff14);
+        opacity: 0.8;
+        pointer-events: none;
+    }
+
+    .rm-location-columns::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .rm-location-columns::-webkit-scrollbar-thumb {
+        background: linear-gradient(#2de2e6, #39ff14);
+        border-radius: 999px;
+    }
+
+/* cada localização (coluna) */
+.rm-location-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 130px;
+    min-height: 160px;
+    gap: 0.3rem;
+}
+
+/* conectores visível/invisível */
+.rm-location-connector,
+.rm-location-connector-spacer {
+    width: 2px;
+    flex: 1;
+}
+
+.rm-location-connector {
+    background: linear-gradient(#22c55e, #2de2e6);
+}
+
+.rm-location-connector-spacer {
+    background: transparent;
+}
+
+/* ponto azul no eixo */
+.rm-location-node {
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: #0ea5e9;
+    box-shadow: 0 0 14px rgba(56, 189, 248, 0.9);
+    z-index: 1;
+}
+
+/* caixas laranjas (origem / local) */
+.rm-location-box {
+    min-width: 110px;
+    max-width: 150px;
+    height: 64px; /* altura FIXA */
+    border-radius: 8px;
+    border: 1px solid #fb923c;
+    padding: 0.25rem 0.45rem;
+    background: radial-gradient(circle at top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.9));
+    box-shadow: 0 0 14px rgba(249, 115, 22, 0.8);
+    text-align: center;
+    font-size: 0.7rem;
+    display: flex; /* centraliza texto dentro da caixa */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rm-location-box-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #fed7aa;
+}
+
+.rm-location-box-name {
+    margin-top: 0.1rem;
+    font-weight: 600;
+    color: #ffedd5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rm-location-box-count {
+    margin-top: 0.05rem;
+    font-size: 0.7rem;
+    color: #fed7aa;
+}
+
+/* spacer com mesma altura da caixa */
+.rm-location-box-spacer {
+    height: 64px;
+}
+
+.rm-location-empty {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}

@@ -1,0 +1,482 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #f9f9ff;
+    background-color: #000000;
+    background-image: url("https://i.pinimg.com/originals/fa/16/51/fa16514fbec646d08f51e1bd5fdc6ab5.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+#app-root {
+    min-height: 100vh;
+}
+
+/* Overlay para contraste sobre o GIF */
+.rm-page-overlay {
+    min-height: 100vh;
+    padding: 1.5rem 1.5rem 2rem;
+    background: radial-gradient(circle at top, rgba(15, 52, 96, 0.85), rgba(2, 6, 23, 0.95));
+    backdrop-filter: blur(4px);
+}
+
+/* Header com logos */
+.rm-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.rm-logo {
+    max-width: 320px;
+    width: 60%;
+    filter: drop-shadow(0 0 12px rgba(57, 255, 20, 0.8));
+}
+
+.rm-logo-portal {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 999px;
+    /*box-shadow: 0 0 24px rgba(45, 226, 230, 0.9);*/
+}
+
+/* Layout principal */
+.rm-main {
+    display: grid;
+    grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.rm-panel-title {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #67e8f9;
+}
+
+.rm-episodes-panel,
+.rm-characters-panel {
+    background: linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(3, 7, 18, 0.98));
+    border-radius: 18px;
+    padding: 1rem;
+    border: 1px solid #2de2e6;
+    box-shadow: 0 0 20px rgba(45, 226, 230, 0.6);
+}
+
+    /* Cabeçalho da área de episódios (temporada + título) */
+    .rm-episodes-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+.rm-season-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rm-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #a5f3fc;
+}
+
+.rm-select {
+    min-width: 160px;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid #2de2e6;
+    background: rgba(15, 23, 42, 0.9);
+    color: #e0f2fe;
+    box-shadow: 0 0 12px rgba(45, 226, 230, 0.6);
+    outline: none;
+}
+
+.rm-select:focus {
+    border-color: #39ff14;
+    box-shadow: 0 0 18px rgba(57, 255, 20, 0.9);
+}
+
+/* Paginação (abaixo da lista de episódios) */
+.rm-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.rm-button {
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid #2de2e6;
+    background: radial-gradient(circle at top left, #1e293b, #020617);
+    color: #e0f2fe;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(45, 226, 230, 0.6);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.rm-button:hover:not(:disabled) {
+    transform: translateY(-1px) scale(1.03);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.9);
+    border-color: #39ff14;
+}
+
+.rm-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+    box-shadow: none;
+}
+
+.rm-page-info {
+    font-size: 0.85rem;
+    color: #bae6fd;
+}
+
+/* Lista de episódios */
+.rm-episodes-list {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+}
+
+.rm-episodes-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.rm-episodes-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(#2de2e6, #39ff14);
+    border-radius: 999px;
+}
+
+/* Cards de episódios */
+.rm-episode-card {
+    width: 100%;
+    text-align: left;
+    background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.95), rgba(2, 6, 23, 0.95));
+    border-radius: 12px;
+    border: 1px solid #2de2e6;
+    padding: 0.6rem 0.75rem;
+    margin-bottom: 0.55rem;
+    cursor: pointer;
+    color: #e5e7eb;
+    box-shadow: 0 0 14px rgba(45, 226, 230, 0.6);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.rm-episode-card:last-child {
+    margin-bottom: 0;
+}
+
+.rm-episode-card:hover {
+    /*transform: translateY(-2px) scale(1.02);*/
+    border-color: #39ff14;
+    box-shadow: 0 0 24px rgba(57, 255, 20, 0.9);
+    background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.95), rgba(2, 6, 23, 0.98));
+}
+
+.rm-episode-card--selected {
+    border-color: #39ff14;
+    box-shadow: 0 0 24px rgba(57, 255, 20, 1);
+}
+
+.rm-episode-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #f9fafb;
+}
+
+.rm-episode-meta {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #a5b4fc;
+}
+
+/* Grid de personagens */
+.rm-characters-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.9rem;
+    min-height: 80px;
+}
+
+.rm-placeholder {
+    font-size: 0.9rem;
+    color: #c4b5fd;
+}
+
+.rm-error {
+    font-size: 0.9rem;
+    color: #fecaca;
+}
+
+.rm-loading {
+    font-size: 0.9rem;
+    color: #bfdbfe;
+}
+
+/* Card de personagem */
+.rm-character-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(circle at top, rgba(15, 23, 42, 0.96), rgba(3, 7, 18, 0.98));
+    border-radius: 16px;
+    padding: 0.5rem 0.4rem 0.6rem;
+    border: 1px solid #39ff14;
+    box-shadow: 0 0 18px rgba(57, 255, 20, 0.8);
+    cursor: pointer;
+    color: #f9fafb;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.rm-character-card:hover {
+    transform: translateY(-3px) scale(1.04);
+    border-color: #2de2e6;
+    box-shadow: 0 0 26px rgba(45, 226, 230, 1);
+}
+
+.rm-character-avatar-wrapper {
+    margin-bottom: 0.35rem;
+}
+
+.rm-character-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #39ff14;
+    box-shadow: 0 0 18px rgba(57, 255, 20, 0.9);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.rm-character-card:hover .rm-character-avatar {
+    transform: scale(1.06);
+    box-shadow: 0 0 26px rgba(45, 226, 230, 1);
+}
+
+.rm-character-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.rm-character-meta {
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    color: #a5f3fc;
+}
+
+.rm-character-card--dead {
+    border-color: #f97373;
+    box-shadow: 0 0 20px rgba(248, 113, 113, 0.95);
+}
+
+    .rm-character-card--dead .rm-character-avatar {
+        border-color: #f97373;
+        box-shadow: 0 0 22px rgba(248, 113, 113, 1);
+    }
+
+    .rm-character-card--dead:hover {
+        border-color: #fecaca;
+        box-shadow: 0 0 28px rgba(248, 113, 113, 1);
+    }
+
+
+/* Modal */
+.rm-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+}
+
+.rm-hidden {
+    display: none;
+}
+
+.rm-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.rm-modal-content {
+    position: relative;
+    max-width: 420px;
+    margin: 6vh auto;
+    padding: 1.5rem 1.35rem 1.25rem;
+    background: radial-gradient(circle at top, #020617, #020617);
+    border-radius: 20px;
+    border: 1px solid #2de2e6;
+    box-shadow: 0 0 32px rgba(45, 226, 230, 1);
+    color: #f9fafb;
+}
+
+.rm-modal-close {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.6rem;
+    background: transparent;
+    border: none;
+    color: #e5e7eb;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.9);
+}
+
+.rm-modal-header {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.rm-modal-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2de2e6;
+    box-shadow: 0 0 22px rgba(45, 226, 230, 1);
+}
+
+.rm-modal-title {
+    margin: 0 0 0.2rem;
+    font-size: 1.1rem;
+}
+
+.rm-modal-subtitle {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #a5b4fc;
+}
+
+.rm-modal-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.4);
+    padding-top: 0.4rem;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.rm-modal-row .rm-label {
+    color: #bae6fd;
+}
+
+/*FILTRO*/
+
+.rm-characters-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.rm-filters {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.rm-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    color: #e0f2fe;
+}
+
+    .rm-filter label {
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.7rem;
+        color: #a5f3fc;
+    }
+
+.rm-filter-select {
+    min-width: 120px;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid #2de2e6;
+    background: rgba(15, 23, 42, 0.9);
+    color: #e0f2fe;
+    outline: none;
+    box-shadow: 0 0 10px rgba(45, 226, 230, 0.6);
+}
+
+    .rm-filter-select:focus {
+        border-color: #39ff14;
+        box-shadow: 0 0 16px rgba(57, 255, 20, 0.9);
+    }
+/* Responsivo */
+@media (max-width: 768px) {
+    .rm-characters-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .rm-main {
+        grid-template-columns: 1fr;
+    }
+
+    .rm-episodes-list {
+        max-height: 50vh;
+    }
+
+    .rm-modal-content {
+        margin: 10vh 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .rm-header {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .rm-logo {
+        max-width: 260px;
+    }
+
+    .rm-pagination {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,85 @@
+@{
+    Layout = "_Layout";
+}
+
+<div class="rm-page-overlay">
+    <header class="rm-header">
+        <img class="rm-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" alt="Rick and Morty" />
+        
+    </header>
+
+    <main class="rm-main">
+        <section class="rm-episodes-panel">
+            <div class="rm-episodes-header">
+                <div class="rm-season-control">
+                    <label for="season-select" class="rm-label">Temporada:</label>
+                    <select id="season-select" class="rm-select">
+                        <option value="">Todas</option>
+                        <option value="1">Temporada 1</option>
+                        <option value="2">Temporada 2</option>
+                        <option value="3">Temporada 3</option>
+                        <option value="4">Temporada 4</option>
+                        <option value="5">Temporada 5</option>
+                    </select>
+                </div>
+                <h2 class="rm-panel-title">Episódios</h2>
+            </div>
+
+            <div id="episodes-list" class="rm-episodes-list">
+                <!-- Episódios renderizados via JS -->
+            </div>
+
+            <div class="rm-pagination">
+                <button id="prev-page" class="rm-button">Anterior</button>
+                <span id="page-info" class="rm-page-info">Página 1</span>
+                <button id="next-page" class="rm-button">Próxima</button>
+            </div>
+        </section>
+
+        <section class="rm-characters-panel">
+            <div class="rm-characters-header">
+                <h2 class="rm-panel-title">Personagens do episódio</h2>
+
+                <div class="rm-filters">
+                    <div class="rm-filter">
+                        <label for="gender-filter">Gênero:</label>
+                        <select id="gender-filter" class="rm-filter-select">
+                            <option value="">Todos</option>
+                            <option value="male">Masculino</option>
+                            <option value="female">Feminino</option>
+                            <option value="genderless">Sem gênero</option>
+                            <option value="unknown">Desconhecido</option>
+                        </select>
+                    </div>
+
+                    <div class="rm-filter">
+                        <label for="status-filter">Status:</label>
+                        <select id="status-filter" class="rm-filter-select">
+                            <option value="">Todos</option>
+                            <option value="alive">Vivo</option>
+                            <option value="dead">Morto</option>
+                            <option value="unknown">Desconhecido</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="characters-list" class="rm-characters-list">
+                <img class="rm-logo-portal" src="~/img/Portal8BitArt.gif" alt="Portal" />
+                <p class="rm-placeholder">Selecione um episódio para ver os personagens.</p>
+            </div>
+            <div id="location-map" class="rm-location-map">
+                <!-- Mapa de localizações do episódio será renderizado via JS -->
+            </div>
+        </section>
+    </main>
+</div>
+
+<div id="character-modal" class="rm-modal rm-hidden">
+    <div class="rm-modal-backdrop"></div>
+    <div class="rm-modal-content">
+        <button id="modal-close" class="rm-modal-close">&times;</button>
+        <div id="modal-body">
+            
+        </div>
+    </div>
+</div>
