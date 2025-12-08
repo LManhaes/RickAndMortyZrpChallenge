@@ -432,11 +432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj",
+      "projectUniqueName": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj",
       "projectName": "RickAndMortyZrpChallenge",
-      "projectPath": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj",
+      "projectPath": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj",
       "packagesPath": "C:\\Users\\leo_d\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\obj\\",
+      "outputPath": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,4 +1,4 @@
 wwwroot\css\map.css
-wwwroot\img\Portal8BitArt.gif
 wwwroot\css\site.css
+wwwroot\img\Portal8BitArt.gif
 wwwroot\js\rickandmorty.js
