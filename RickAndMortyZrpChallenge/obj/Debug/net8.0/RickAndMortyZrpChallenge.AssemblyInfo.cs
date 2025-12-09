@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RickAndMortyZrpChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64ac6fa0b601438f924041e81fe882a99614d5fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef37004a459c699d55c1ec1a025ffe3572f148ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("RickAndMortyZrpChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RickAndMortyZrpChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
