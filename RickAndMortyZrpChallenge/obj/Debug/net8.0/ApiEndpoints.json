@@ -18,7 +18,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "ContainingType": "RickAndMortyZrpChallenge.Controllers.Api.EpisodesController",
+    "ContainingType": "RickAndMortyZrpChallenge.Web.Controllers.EpisodesController",
     "Method": "GetEpisodes",
     "RelativePath": "api/Episodes",
     "HttpMethod": "GET",
@@ -44,52 +44,32 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "page",
+        "Name": "Page",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "season",
+        "Name": "Season",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "RickAndMortyZrpChallenge.Application.Models.PaginatedResultDto\u00601[[RickAndMortyZrpChallenge.Application.Models.EpisodeDto, RickAndMortyZrpChallenge, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "RickAndMortyZrpChallenge.Controllers.Api.EpisodesController",
-    "Method": "GetCharactersForEpisode",
-    "RelativePath": "api/Episodes/{id}/characters",
+    "ContainingType": "RickAndMortyZrpChallenge.Web.Controllers.EpisodesController",
+    "Method": "GetCharactersByEpisode",
+    "RelativePath": "api/Episodes/{episodeId}/characters",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "episodeId",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[RickAndMortyZrpChallenge.Application.Models.CharacterSummaryDto, RickAndMortyZrpChallenge, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]

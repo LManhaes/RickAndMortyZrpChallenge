@@ -1,12 +1,53 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.OpenApi.Models;
 using RickAndMortyZrpChallenge.Application.Services;
 using RickAndMortyZrpChallenge.Domain.Repositories;
 using RickAndMortyZrpChallenge.Infrastructure.Repositories;
+using RickAndMortyZrpChallenge.Application.Validation; // onde está o GetEpisodesRequestValidator
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// ==== CORS ====
+const string DefaultCorsPolicy = "DefaultCorsPolicy";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(DefaultCorsPolicy, policy =>
+    {
+        // Lê as origens permitidas do appsettings.json: Cors:AllowedOrigins
+        var origins = builder.Configuration
+            .GetSection("Cors:AllowedOrigins")
+            .Get<string[]>();
+
+        if (origins is { Length: > 0 })
+        {
+            policy.WithOrigins(origins)
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        }
+        else
+        {
+            // Fallback: libera tudo (útil só pra DEV)
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        }
+    });
+});
+
+// ===== MVC + FluentValidation =====
+builder.Services
+    .AddControllersWithViews()
+    .AddFluentValidation(fv =>
+    {
+        // opcional: desabilita validação por DataAnnotations se quiser usar só FluentValidation
+        fv.DisableDataAnnotationsValidation = true;
+    });
+
+// registra todos os validators a partir da assembly onde está o GetEpisodesRequestValidator
+builder.Services.AddValidatorsFromAssemblyContaining<GetEpisodesRequestValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<GetCharacterRequestValidator>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -51,6 +92,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// ==== CORS antes de Authorization ====
+app.UseCors(DefaultCorsPolicy);
 
 app.UseAuthorization();
 

@@ -110,3 +110,6 @@ D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\obj\Debug\net8.0\r
 D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\obj\Debug\net8.0\RickAndMortyZrpChallenge.pdb
 D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\obj\Debug\net8.0\RickAndMortyZrpChallenge.genruntimeconfig.cache
 D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\obj\Debug\net8.0\ref\RickAndMortyZrpChallenge.dll
+D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\bin\Debug\net8.0\FluentValidation.dll
+D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Projetos\RickAndMortyZrpChallenge\RickAndMortyZrpChallenge\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

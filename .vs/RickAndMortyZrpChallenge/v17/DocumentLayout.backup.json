@@ -3,28 +3,72 @@
   "WorkspaceRootPath": "D:\\Projetos\\RickAndMortyZrpChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\js\\rickandmorty.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\js\\rickandmorty.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\js\\rickandmorty.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\js\\rickandmorty.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\controllers\\api\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\controllers\\api\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\validation\\getcharacterrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\validation\\getcharacterrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\models\\getcharacterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\models\\getcharacterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\models\\charactersummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\models\\charactersummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\models\\characterdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\models\\characterdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\models\\getepisodesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\models\\getepisodesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\models\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\models\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\services\\rickandmortyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\services\\rickandmortyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\controllers\\api\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\controllers\\api\\episodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\application\\validation\\getepisodesrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\application\\validation\\getepisodesrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\infrastructure\\repositories\\rickandmortyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\infrastructure\\repositories\\rickandmortyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|solutionrelative:rickandmortyzrpchallenge\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge.csproj|d:\\projetos\\rickandmortyzrpchallenge\\rickandmortyzrpchallenge\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,96 +86,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAKEBAAAAAAAAAAAowLoBAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-08T20:30:18.761Z"
+              "DocumentIndex": 9,
+              "Title": "CharacterDetailDto.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\CharacterDetailDto.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Models\\CharacterDetailDto.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\CharacterDetailDto.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Models\\CharacterDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:34:23.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EpisodeDto.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\EpisodeDto.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Models\\EpisodeDto.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\EpisodeDto.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Models\\EpisodeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:34:14.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Controllers\\Api\\CharactersController.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Controllers\\Api\\CharactersController.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Controllers\\Api\\CharactersController.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Controllers\\Api\\CharactersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:32:18.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetEpisodesRequest.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\GetEpisodesRequest.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Models\\GetEpisodesRequest.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\GetEpisodesRequest.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Models\\GetEpisodesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:29:29.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\appsettings.json",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\appsettings.json",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T01:21:39.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "map.css",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T19:29:08.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetCharacterRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Validation\\GetCharacterRequestValidator.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Validation\\GetCharacterRequestValidator.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Validation\\GetCharacterRequestValidator.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Validation\\GetCharacterRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:35:16.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T19:27:53.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "rickandmorty.js",
               "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\js\\rickandmorty.js",
               "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\wwwroot\\js\\rickandmorty.js",
               "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\js\\rickandmorty.js",
               "RelativeToolTip": "RickAndMortyZrpChallenge\\wwwroot\\js\\rickandmorty.js",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAIsBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAcwJcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-12-08T19:30:10.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T19:29:20.11Z"
+              "DocumentIndex": 7,
+              "Title": "GetCharacterRequest.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\GetCharacterRequest.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Models\\GetCharacterRequest.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\GetCharacterRequest.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Models\\GetCharacterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:34:41.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "map.css",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\wwwroot\\css\\map.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAUwIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-08T19:29:08.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-08T19:27:53.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RickAndMortyService.cs",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwDQAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Program.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Program.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Program.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T19:27:26.368Z"
+              "WhenOpened": "2025-12-09T01:20:16.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRickAndMortyService.cs",
-              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
-              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
-              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
-              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "EpisodesController.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Controllers\\Api\\EpisodesController.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Controllers\\Api\\EpisodesController.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Controllers\\Api\\EpisodesController.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Controllers\\Api\\EpisodesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T19:27:24.012Z"
+              "WhenOpened": "2025-12-09T01:31:08.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "CharacterSummaryDto.cs",
               "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Models\\CharacterSummaryDto.cs",
               "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Models\\CharacterSummaryDto.cs",
@@ -139,7 +254,86 @@
               "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Models\\CharacterSummaryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T19:26:42.935Z"
+              "WhenOpened": "2025-12-08T19:26:42.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetEpisodesRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Validation\\GetEpisodesRequestValidator.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Validation\\GetEpisodesRequestValidator.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Validation\\GetEpisodesRequestValidator.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Validation\\GetEpisodesRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:30:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RickAndMortyRepository.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Infrastructure\\Repositories\\RickAndMortyRepository.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Infrastructure\\Repositories\\RickAndMortyRepository.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Infrastructure\\Repositories\\RickAndMortyRepository.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Infrastructure\\Repositories\\RickAndMortyRepository.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:26:27.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RickAndMortyService.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Services\\RickAndMortyService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:27:26.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKEBAAAAAAAAAAAowLoBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T20:30:18.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T19:29:20.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRickAndMortyService.cs",
+              "DocumentMoniker": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
+              "RelativeDocumentMoniker": "RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
+              "ToolTip": "D:\\Projetos\\RickAndMortyZrpChallenge\\RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
+              "RelativeToolTip": "RickAndMortyZrpChallenge\\Application\\Services\\IRickAndMortyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:27:24.012Z",
+              "EditorCaption": ""
             }
           ]
         }

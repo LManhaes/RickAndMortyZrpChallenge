@@ -1,14 +1,12 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using RickAndMortyZrpChallenge.Application.Models;
+using RickAndMortyZrpChallenge.Application.Models.Requests;
 using RickAndMortyZrpChallenge.Application.Services;
 
-namespace RickAndMortyZrpChallenge.Controllers.Api
+namespace RickAndMortyZrpChallenge.Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class EpisodesController : ControllerBase
+    public sealed class EpisodesController : ControllerBase
     {
         private readonly IRickAndMortyService _service;
 
@@ -17,24 +15,22 @@ namespace RickAndMortyZrpChallenge.Controllers.Api
             _service = service;
         }
 
+        // GET api/episodes?page=1&season=1
         [HttpGet]
-        public async Task<ActionResult<PaginatedResultDto<EpisodeDto>>> GetEpisodes(
-            [FromQuery] int page = 1,
-            [FromQuery] int? season = null)
+        public async Task<IActionResult> GetEpisodes([FromQuery] GetEpisodesRequest request)
         {
-            if (page <= 0)
-            {
-                page = 1;
-            }
+            // Se request for inválido, FluentValidation + [ApiController]
+            // já geram HTTP 400 antes de chegar aqui.
 
-            var result = await _service.GetEpisodesAsync(page, season);
+            var result = await _service.GetEpisodesAsync(request.Page, request.Season);
             return Ok(result);
         }
 
-        [HttpGet("{id:int}/characters")]
-        public async Task<ActionResult<IEnumerable<CharacterSummaryDto>>> GetCharactersForEpisode(int id)
+        // GET api/episodes/{episodeId}/characters
+        [HttpGet("{episodeId:int}/characters")]
+        public async Task<IActionResult> GetCharactersByEpisode(int episodeId)
         {
-            var characters = await _service.GetCharactersByEpisodeAsync(id);
+            var characters = await _service.GetCharactersByEpisodeAsync(episodeId);
             return Ok(characters);
         }
     }
